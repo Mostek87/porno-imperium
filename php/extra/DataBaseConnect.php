@@ -1,6 +1,6 @@
 <?php
 
-$dataBase = mysqli_connect('mysql6.superhost.pl', 'sh194765_giermek', 'tutajgiermek', 'sh194765_pornobaza');
+$dataBase = mysqli_connect(''); ///obviously removed
 	  
 	    if(!$dataBase)
 	    {

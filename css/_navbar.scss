@@ -1,0 +1,142 @@
+.main_nav
+{
+  background: black;
+  box-shadow: 0px 0px 5px 4px #000;
+  position:fixed;
+  top:0px;
+  width:100%;
+  padding: 4px;
+  z-index: 4;
+}
+
+
+
+.action_list_main
+{
+  list-style-type : none;
+  margin: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 34px;
+ padding:0;
+ overflow: hidden;
+ background: black;
+}
+
+.navigation-link
+{
+  text-decoration: none;
+  color:gray;  
+}
+
+.navigation-link:active
+{
+ color:gray;	
+}
+
+.navigation-link:hover
+{
+ transition: color 2s;
+ color:white;
+ text-decoration: none; 
+}
+
+.action_option_main
+{
+	display:inline;
+	text-transform: uppercase;
+	color: gray;
+	font-family: 'Monda', sans-serif;
+	font-size:1.7vw;
+}
+
+.action_option_main:hover
+{
+  transition: color 2s;
+  color:white;
+  cursor:pointer
+}
+
+.empire-logo
+{
+	width:170px;
+	height:auto;
+	position: relative;
+	right:15px;
+	top: 2px;
+}
+
+.empire-logo-small
+{
+	display: none;
+	margin-top: 4px;
+}
+
+.vertical-separator
+{
+ 	width: 2px;
+    background-color: #333;
+    border-left: 2px solid #2F2F2F;
+    display: inline-block;
+    height: 2.3vw;
+    margin: 0 10px;
+}
+
+.navbar-button
+{
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin: 0;	
+}
+
+
+@media only screen and (max-width: 650px)
+{
+	
+	.action_option_main
+	{
+	  font-size: 2.3vw;	
+	}
+}
+
+@media only screen and (max-width: 600px)
+{
+  .decoration-images-container
+  {
+	height: 250px;  
+  }
+}
+
+
+
+
+@media only screen and (max-width: 580px)
+{
+	.empire-logo
+	{
+		display: none;
+	}
+	
+	.empire-logo-small
+	{
+		display: block;
+	}
+	
+}
+
+@media only screen and (max-width: 450px)
+{
+  .vertical-separator
+  {
+   height: 3.8vw;
+   margin:0 4px;
+  }  
+  
+  .action_option_main 
+  {
+    font-size: 2.9vw;
+   }
+}

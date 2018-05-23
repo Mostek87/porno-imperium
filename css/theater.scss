@@ -1,0 +1,583 @@
+@import 'reset';
+@import 'dark-canvas';
+@import 'navbar';
+@import 'footer';
+@import 'categories-menu-togle';
+@import 'categories-menu-togle-images';
+@import 'login-box';
+@import 'movies';
+@import 'magnifier';
+
+.video-player
+{
+ display:block;
+ width: 100% !important;
+ height: 40vw !important;
+}
+
+
+.movie-controls-and-information
+{
+  margin-bottom: 20px;
+  background:black;
+  border: 2px solid #660000;
+  border-radius: 5px;
+  font-family: 'Play', sans-serif;
+}
+
+.views-icon
+{
+  width:20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+
+.information
+{
+ color: white;
+ font-size: 17px;
+ background: #212121;
+ padding: 4px;
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ list-style-type: none;
+ margin:0;
+}
+
+.movie-title
+{
+  text-align:center;
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+  font-weight:bold;
+}
+
+.movie-information
+{
+  margin: 0 7px 3px 7px;
+}
+
+.movie-parameter
+{
+  color: #999;
+}
+
+.movie-controls
+{
+  background: black; 
+  padding-left: 5px;
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+
+.information-decoration-icon
+{
+  width: 22px;
+  height:auto;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.link-to-pornstar-profile
+{
+ text-decoration: none;
+}
+
+.link-to-pornstar-profile:hover
+{
+ text-decoration: underline;
+ color:white;
+}
+
+.control-description
+{
+  color:white;
+  display:inline;
+  font-size: 20px;
+}
+
+.control-align-top
+{
+ vertical-align:top;	
+}
+
+.stars-container
+{
+  display:inline-flex;
+  align-items: center;
+}
+
+.user-grade
+{
+  vertical-align: top;
+  margin-left: 7px;
+  display: inline-block;
+  width: 40px;
+  font-size: 20px;
+  height: 30px;
+}
+
+.rating-stars
+{
+  display:inline-block;
+  margin-left: 4px;
+}
+
+.spermatozoid-control
+{
+ display: inline-flex;
+ align-items: center;	
+}
+
+.spermatozoid-icon
+{
+  cursor:pointer;
+  margin-left: 5px;  
+}
+
+.spermatozoid-icon:hover
+{
+  filter:brightness(160%);
+}
+
+.bright-spermatozoid
+{
+	filter:brightness(160%);
+}
+
+.comments-control-button
+{
+    border: none;
+    padding: 7px 14px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Play', sans-serif;
+    cursor: pointer;
+    justify-self: right;
+    z-index: 2;	
+	position:relative;
+}
+
+.leave-comment-button
+{
+ background: rgb(102, 0, 0);	
+}
+
+.show-users-comments-button
+{
+  background: rgb(2, 5, 43);	
+}
+
+
+
+.comment-form
+{
+ background: url('/images/decoration/theater.jpg') no-repeat center;
+ background-size: cover;
+ max-height: 580px;
+ min-height: 400px;
+ border: 0.1px solid transparent;
+ position: relative;
+ overflow-y: auto;
+}
+
+.movie-complete-package
+{
+  margin-top: 42px;
+display:flex;
+justify-content: space-evenly;  
+}
+
+.similar-movies-and-advertisement
+{
+ width: 260px; 
+ background: black;
+}
+
+.movie-with-controls
+{
+  width: calc(100% - 240px);
+  padding: 5px;  
+}
+
+.similar-movies-list
+{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+}
+
+.movie-complete
+{
+  display: block;
+  margin: 0 auto;
+}
+
+.movie-container
+{
+  margin-bottom: 5px;	
+}
+
+.similar-movies-info
+{
+ text-align: center;
+ background: #660000;
+ padding: 4px 0;
+ background-size:cover;
+ font-size: 21px;
+ font-family: 'Play', sans-serif;
+ color: white;
+ width: 236px;
+ margin: 7px auto 4px auto;
+}
+
+.square-decoration
+{
+  width: 30px;
+  height: 30px;
+  background: #660000;
+  transform: rotate(45deg);
+   position: absolute;
+    left: 25%;
+    top: 10px;
+    z-index: 1;	
+}
+
+.buttons-container
+{
+	display:inline-block;
+	font-size:0;
+	margin-left: auto;
+	position:relative;
+}
+
+.comment-controls {
+    width: 80%;
+    margin: 60px auto 90px auto;
+    box-shadow: 3px 3px 5px 2px #000;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.user-avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: cover;
+    top: -30px;
+    left: -30px;
+    z-index: 2;
+}
+
+.label-user-opinion {
+    font-family: 'Play', sans-serif;
+    font-size: 28px;
+    padding-left: 25px;
+    color: #C6C6C6;
+    background: rgba(0, 0, 0, 0.8);
+    display: block;
+}
+
+.controls-group {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.user-message {
+    width: 100%;
+    margin: 6px auto;
+    resize: vertical;
+    display: block;
+    border-radius: 5px;
+    height: 190px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #C6C6C6;
+    font-size: 19px;
+}
+
+.nick-label {
+    display: inline-block;
+    width: calc(100% - 115px);
+    min-width: 250px;
+    margin: 5px 0;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    color: #C6C6C6;
+    height: 30px;
+    font-family: 'Lalezar', sans-serif;
+    padding-left: 5px;
+    font-size: 20px;
+    border: 1px solid darkgray;
+}
+
+.submit-comment {
+    font-size: 17px;
+    border-radius: 6px;
+    color: white;
+    padding: 4px 12px;
+    background: #660000;
+    border: none;
+    font-family: 'Play', sans-serif;
+    cursor: pointer;
+}
+
+.user-nick {
+    width: calc(100% - 100px);
+    background: transparent;
+    border: none;
+    padding-left: 5px;
+    height: 23px;
+    font-size: 19px;
+    color: #C6C6C6;
+}
+
+.views
+{
+  color:white;	
+}
+
+.cover-comments-canvas {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.93);
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+
+.ajax-loading-icon {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+
+.more-comments-button
+{
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 7px;
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    background: black;	
+}
+
+.single-comment
+{
+ border: 2px solid black;
+ box-shadow: 2px 2px 2px 1px black;
+ margin-bottom: 14px;
+}
+
+.comment-header
+{
+  background: rgba(66,00,00,0.92);
+  font-family: 'Play', sans-serif;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  padding: 3px 10px;   
+}
+
+.user-avatar-small
+{
+ width: 32px;
+ height: 32px;
+ border-radius: 50%;
+ margin-right: 3px;
+ object-fit: contain;
+vertical-align: middle; 
+}
+
+.comment-body
+{
+   background: rgba(0,0,0,0.9);
+    color: white;
+    font-size: 17px;
+    font-family: 'Play', sans-serif;
+    padding: 5px;
+}
+
+.comments-container
+{
+  margin: 20px auto;	
+  width: 60%;
+  min-width: 280px;
+  display:none;
+}
+
+.comment-date {
+    font-size: 12px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.more-comments-button:hover {
+  transition: background 2s;
+  background: #E6033C; }
+
+@media only screen and (max-width: 1300px) and (min-width: 520px)
+{
+   .movie-controls
+   {
+     flex-flow: column;
+	 align-items:center;
+   }  
+
+   .buttons-container
+   {
+     margin:0;
+	 width:100%;
+   } 
+
+   .stars-container, .spermatozoid-control
+   {
+	 padding: 6px 0;  
+   }
+
+    .comments-control-button
+	{
+		width:50%;
+	}   
+	
+	.movie-controls
+	{
+		padding:0;
+	}
+	
+	.stars-container
+	{
+	 display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     border-bottom: 2px solid #660000;
+	}
+	
+}
+
+@media only screen and (max-width: 770px)
+{
+	
+	.movie-complete-package
+	{
+		display:block;
+	}
+	
+	.movie-with-controls
+	{
+		width:100%;
+	}
+	
+	.similar-movies-info
+	{
+		width:100%;
+		margin: 7px auto 0 auto;
+	}
+	
+	.similar-movies-and-advertisement
+	{
+		width: 95%;
+        margin: 0 auto 10px auto;
+	}
+	
+	.similar-movies-list
+	{
+      background: black;
+      padding-top: 12px;	  
+	}
+	
+	.movie-complete
+	{
+	  margin: 0 10px;
+	  display: inline-block;
+	}
+	
+	
+}
+
+@media only screen and (min-width: 569px) and (max-width: 770px)
+{
+  .similar-movies-list
+  {
+    width: 512px;
+	margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 568px )
+{
+   .similar-movies-list
+  {
+    width: 256px;
+	margin: 0 auto;
+  }
+}
+
+
+
+@media only screen and (max-width: 520px)
+{
+	.stars-container
+	{
+		border-bottom: 2px solid #660000;
+	}
+	
+	
+	.control-description, .rating-stars, .movie-controls, .spermatozoid-icon, .spermatozoid-control, .buttons-container, .stars-container
+	{
+	 display:block;	
+	 text-align:center;
+	}
+	
+	.spermatozoid-icon
+	{
+	  margin: 4px auto;
+	}
+	
+	
+	.rating-stars
+	{
+		margin-top: 4px;
+	}
+	
+	.comments-control-button
+	{
+		width:50%;
+	}
+	
+	.movie-controls
+	{
+		padding:0;
+	}
+}
+
+@media only screen and (max-width: 800px)
+{
+	
+	.submit-comment {
+		display: block;
+		width: 100%;
+		margin-bottom: 6px;
+	}
+	
+	.nick-label {
+    display: block;
+    width: 100%;
+}
+
+}
+
+

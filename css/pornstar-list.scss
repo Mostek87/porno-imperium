@@ -1,0 +1,353 @@
+@import 'reset';
+@import 'dark-canvas';
+@import 'navbar';
+@import 'footer';
+@import 'categories-menu-togle';
+@import 'categories-menu-togle-images';
+@import 'login-box';
+
+body
+{
+ background:black;
+}
+
+.pornstars-container
+{
+  margin-top:47px;	
+}
+
+.pornstars-background-image
+{
+ height:600px;
+ background: url('/images/decoration/pornstars-together.jpg') no-repeat center;
+ background-size: cover;
+}
+
+.pornstars-list-container
+{
+  width: 90%;
+  margin:0 auto;
+  border-radius: 6px;
+  position:relative;
+  bottom: 160px;
+}
+
+.header
+{
+line-height:100px;
+text-align: center;
+margin: 0;
+padding: 0;
+background: url('/images/decoration/star2.png') no-repeat 5% 10px, url('/images/decoration/star2.png') no-repeat 95% 10px, rgba(0,0,0,0.95);
+background-size: 80px; 
+border-radius: 18px 18px 0px 0px;
+font-family: 'Play', sans-serif;
+color:white;
+font-size:27px;
+}
+
+.pornstars-list-by-letter
+{
+ padding: 5px;
+ margin: 0; 
+ list-style-type:none;
+ display:flex;
+ flex-wrap:wrap;
+ justify-content: center;
+}
+
+.pornstar-first-letter
+{
+  text-align:center;
+  font-size: 32px;
+  font-weight:bold;
+  color: white;
+  padding:5px;
+  font-family: 'Play', sans-serif;
+ border: 2px solid #660000;
+  background:black;  
+}
+
+.pornstar-first-letter-a
+{
+  border-left: none;
+  border-right: none;
+ border-top: 2px solid #660000;
+border-bottom: 2px solid #660000;  
+}
+
+.single-pornstar
+{
+ border: 2px solid #660000;
+ width:160px;
+ height: 214px;
+background-size:cover; 
+border-radius:6px;
+box-shadow: 2px 2px 2px 1px black;
+margin:4px;
+}
+
+.pornstar-profile-link
+{
+ display:block;
+ height: 210px;
+ position:relative;
+}
+
+.pornstar-nickname
+{
+ position:absolute;
+bottom:0;
+ width:100%; 
+ text-align:center;
+ background: rgba(0,0,0,0.93);
+ color:silver;
+ font-family: 'Play', sans-serif;
+ border-radius: 0 0 4px 4px;
+ font-size: 17px;
+ line-height: 25px;
+}
+
+.pornstars-whole-list
+{
+  background: #212121;
+  border-radius: 0 0 7px 7px;
+  
+}
+
+.pornstar-nickname:hover
+{
+  transition: color 2s;
+  color:gold;  
+}
+
+.single-pornstar:hover
+{
+  transition: filter 1.5s;
+  filter: brightness(130%);	
+  border-color:red;
+}
+
+.porn-empire-footer
+{
+  background: #212121;	
+}
+
+.aletta-ocean
+{
+ background-image: url('/images/pornstars/magnifier/Aletta_Ocean.jpg');	
+}
+
+.ariella-ferrera
+{
+ background-image: url('/images/pornstars/magnifier/Ariella_Ferrera.jpg');	
+}
+
+.asa-akira
+{
+ background-image: url('/images/pornstars/magnifier/Asa_Akira.jpg');	
+}
+
+.ava-addams
+{
+ background-image: url('/images/pornstars/magnifier/Ava_Addams.jpg');	
+}
+
+.alexis-texas
+{
+ background-image: url('/images/pornstars/magnifier/Alexis_Texas.jpg');	
+}
+
+.amy-anderssen
+{
+ background-image: url('/images/pornstars/magnifier/Amy_Anderssen.jpg');	
+}
+
+.brianna-beach
+{
+ background-image: url('/images/pornstars/magnifier/Brianna_Beach.jpg');	
+}
+
+.brandi-love
+{
+ background-image: url('/images/pornstars/magnifier/Brandi_Love.jpg');	
+}
+
+.briana-banks
+{
+ background-image: url('/images/pornstars/magnifier/Briana_Banks.jpg');	
+}
+
+.casey-calvert
+{
+ background-image: url('/images/pornstars/magnifier/Casey_Calvert.jpg');	
+}
+
+.capri-cavanni
+{
+  background-image: url('/images/pornstars/magnifier/Capri_Cavanni.jpg');	
+}
+
+.deauxma
+{
+  background-image: url('/images/pornstars/magnifier/Deauxma.jpg');	
+}
+
+.diana-doll
+{
+  background-image: url('/images/pornstars/magnifier/Diana_Doll.jpg');	
+}
+
+.eva-notty
+{
+  background-image: url('/images/pornstars/magnifier/Eva_Notty.jpg');	
+}
+
+.janet-mason
+{
+  background-image: url('/images/pornstars/magnifier/Janet_Mason.jpg');	
+}
+
+.julia-ann
+{
+  background-image: url('/images/pornstars/magnifier/Julia_Ann.jpg');	
+}
+
+.jenna-jameson
+{
+  background-image: url('/images/pornstars/magnifier/Jenna_Jameson.jpg');	
+}
+
+.jenna-presley
+{
+  background-image: url('/images/pornstars/magnifier/Jenna_Presley.jpg');	
+}
+
+.jada-fire
+{
+  background-image: url('/images/pornstars/magnifier/Jada_Fire.jpg');	
+}
+
+.jynx-maze
+{
+  background-image: url('/images/pornstars/magnifier/Jynx_Maze.jpg');	
+}
+
+.kagney-linn-karter
+{
+  background-image: url('/images/pornstars/magnifier/Kagney_Linn_Karter.jpg');	
+}
+
+.katie-kox
+{
+  background-image: url('/images/pornstars/magnifier/Katie_Kox.jpg');	
+}
+
+.kendra-lust
+{
+  background-image: url('/images/pornstars/magnifier/Kendra_Lust.jpg');	
+}
+
+.lisa-ann
+{
+  	background-image: url('/images/pornstars/magnifier/Lisa_Ann.jpg');
+}
+
+.madison-ivy
+{
+	background-image: url('/images/pornstars/magnifier/Madison_Ivy.jpg');
+}
+
+.nikki-benz
+{
+	background-image: url('/images/pornstars/magnifier/Nikki_Benz.jpg');
+}
+
+.natalia-starr
+{
+	background-image: url('/images/pornstars/magnifier/Natalia_Starr.jpg');
+}
+
+.nina-hartley
+{
+	background-image: url('/images/pornstars/magnifier/Nina_Hartley.jpg');
+}
+
+.nicole-aniston
+{
+  background-image: url('/images/pornstars/magnifier/Nicole_Aniston.jpg');	
+}
+
+.phoenix-marie
+{
+  background-image: url('/images/pornstars/magnifier/Phoenix_Marie.jpg');	
+}
+
+.rachel-starr
+{
+  background-image: url('/images/pornstars/magnifier/Rachel_Starr.jpg');	
+}
+
+.rachel-starr
+{
+  background-image: url('/images/pornstars/magnifier/Rachel_Starr.jpg');	
+}
+
+.remy-lacroix
+{
+  background-image: url('/images/pornstars/magnifier/Remy_LaCroix.jpg');	
+}
+
+.sasha-grey
+{
+  background-image: url('/images/pornstars/magnifier/Sasha_Grey.jpg');	
+}
+
+.silvia-saint
+{
+  background-image: url('/images/pornstars/magnifier/Silvia_Saint.jpg');	
+}
+
+.sophie-dee
+{
+  background-image: url('/images/pornstars/magnifier/Sophie_Dee.jpg');	
+}
+
+.shyla-stylez
+{
+  background-image: url('/images/pornstars/magnifier/Shyla_Stylez.jpg');	
+}
+
+.sexy-vanessa
+{
+  background-image: url('/images/pornstars/magnifier/Sexy_Vanessa.jpg');	
+}
+
+.tanya-tate
+{
+  background-image: url('/images/pornstars/magnifier/Tanya_Tate.jpg');	
+}
+
+.tera-patrick
+{
+ background-image: url('/images/pornstars/magnifier/Tera_Patrick.jpg');	
+}
+
+
+
+
+
+@media only screen and (max-width: 590px)
+{
+  .header
+  {
+	background: rgba(0,0,0,0.96);
+    font-size: 5.2vw;	
+  }
+  
+  .pornstars-background-image
+  {
+	height:400px;  
+  }
+}
+

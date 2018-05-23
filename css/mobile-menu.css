@@ -1,0 +1,13 @@
+.activate-menu
+{
+  color:white;
+  font-size: 19px;
+  margin:0 3px;
+  font-family: 'Monda', sans-serif;
+  cursor:pointer;
+}
+
+.hamburger-menu
+{
+  display:none;
+}

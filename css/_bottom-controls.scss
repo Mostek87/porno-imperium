@@ -1,0 +1,83 @@
+.page-toggle-controls
+{
+  margin :8px auto;
+  padding:0;  
+  display:flex;
+  justify-content: center; 
+  list-style-type: none; 
+  flex-wrap:wrap;  
+  max-width: 440px;
+}
+
+.page-selection
+{
+  display: inline-block;
+  border-radius: 5px;
+  height: 40px;
+  color:white; 
+  font-family: 'Baloo Da', sans-serif;
+  line-height: 40px;
+  text-transform:uppercase;
+  border: none;
+  text-decoration:none;
+}
+
+.page-selection-first-layer
+{
+ 	width:40px;
+	padding: 0 8px;
+}
+
+.page-selection-second-layer
+{
+  width:100px;   
+}
+
+
+.page-selection:not(.active)
+{
+ background: black;
+}
+
+.page-selection:hover
+{
+  background:#E6033C;
+  cursor:pointer;
+}
+
+.active
+{
+  background: #E6033C;	
+}
+
+.controls-element
+{
+ text-align: center;
+ margin: 5px; 
+}
+
+@media only screen and (max-width: 450px)
+{
+  .page-selection
+  {
+	width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  
+  .controls-element
+  {
+	margin: 3px;  
+  }
+  
+  .page-selection-second-layer
+  {
+	width: 95%;  
+  }
+  
+  .controls-element-bottom
+  {
+	width: 260px; 
+  }
+  
+}

@@ -1,0 +1,171 @@
+@import 'reset';
+@import 'dark-canvas';
+@import 'navbar';
+@import 'footer';
+@import 'categories-menu-togle';
+@import 'categories-menu-togle-images';
+@import 'magnifier';
+@import 'login-box';
+@import 'bottom-controls';
+@import 'movies';
+
+
+
+.decoration-images-container
+{
+  position: relative;
+  height: 390px;
+  border-left: 2px solid #303030;
+  border-right: 2px solid #303030;
+  border-bottom: 2px solid #303030;
+  margin-top: 46px;
+}
+
+.decoration-image-inner
+{
+	position: absolute;
+	height: 388px;
+	top:0px;
+	width:100%;
+	z-index:2;
+	animation: fading-background 12s 4.5s infinite alternate;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .decoration-images-container, .decoration-image-inner
+  {
+	height: 250px;  
+  }
+}
+
+.decoration-image-1
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-1.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-2
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-2.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-3
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-3.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-4
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-4.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-5
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-5.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-6
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-6.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-7
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-7.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-8
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-8.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-9
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-9.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-10
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-10.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-11
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-11.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-12
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-12.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-13
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-13.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-14
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-14.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-15
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-15.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-16
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-16.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-17
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-17.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-18
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-18.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-19
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-19.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.decoration-image-20
+{
+	background: url('/images/decoration/big-images-main-page/decoration-image-20.jpg') no-repeat center;
+	background-size: cover;
+}
+
+@keyframes fading-background
+{
+	0%{opacity:1;}
+	37.5%{opacity:1;}
+	62.5%{opacity:0;}
+	100%{opacity:0;}
+}
+
+/* main */
+

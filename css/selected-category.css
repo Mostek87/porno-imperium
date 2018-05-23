@@ -1,0 +1,505 @@
+.category-name
+{
+ display:inline;
+ margin:0;
+ padding:0;
+ font-family: 'Baloo Da', sans-serif;
+ font-weight: 100;
+ color:black;
+ font-size:3.9vw;
+}
+
+.selected-category
+{
+	height: 390px;
+    margin-top: 47px;
+	margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border: 2px solid silver;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.anal-header
+{
+  background-image: url('/images/decoration/categories-header/anal-header.jpg');
+}
+
+.amateur-header
+{
+  background-image: url('/images/decoration/categories-header/amateur-header.jpg');
+}
+
+.american-header
+{
+  background-image: url('/images/decoration/categories-header/american-header.jpg');
+}
+
+.asian-header
+{
+  background-image: url('/images/decoration/categories-header/asian-header.jpg');
+}
+
+.blonde-header
+{
+  background-image: url('/images/decoration/categories-header/blonde-header.jpg');
+}
+
+.brunette-header
+{
+  background-image: url('/images/decoration/categories-header/brunette-header.jpg');
+}
+
+.bukkake-header
+{
+  background-image: url('/images/decoration/categories-header/bukkake-header.jpg');
+}
+
+.white-header
+{
+  background-image: url('/images/decoration/categories-header/white-header.jpg');
+}
+
+.blowbang-header
+{
+  background-image: url('/images/decoration/categories-header/blowbang-header.jpg');
+}
+
+.whips-header
+{
+  background-image: url('/images/decoration/categories-header/whips-header.jpg');
+}
+
+.office-header
+{
+  background-image: url('/images/decoration/categories-header/office-header.jpg');
+}
+
+.czech-header
+{
+  background-image: url('/images/decoration/categories-header/czech-header.jpg');
+}
+
+.skinny-header
+{
+  background-image: url('/images/decoration/categories-header/skinny-header.jpg');
+}
+
+.big-titts-header
+{
+  background-image: url('/images/decoration/categories-header/big-titts-header.jpg');
+}
+
+.big-ass-header
+{
+  background-image: url('/images/decoration/categories-header/big-ass-header.jpg');
+}
+
+.hooker-header
+{
+  background-image: url('/images/decoration/categories-header/hooker-header.jpg');
+}
+
+.gangbang-header
+{
+  background-image: url('/images/decoration/categories-header/gangbang-header.jpg');
+}
+
+.group-header
+{
+  background-image: url('/images/decoration/categories-header/group-header.jpg');
+}
+
+.pornstars-header
+{
+  background-image: url('/images/decoration/categories-header/pornstars-header.jpg');
+}
+
+.japanese-header
+{
+  background-image: url('/images/decoration/categories-header/japanese-header.jpg');
+}
+
+.solo-header
+{
+  background-image: url('/images/decoration/categories-header/solo-header.jpg');
+}
+
+.femdom-header
+{
+  background-image: url('/images/decoration/categories-header/femdom-header.jpg');
+}
+
+.cumshot-compilation-header
+{
+  background-image: url('/images/decoration/categories-header/cumshot-compilation-header.jpg');
+}
+
+.latin-header
+{
+  background-image: url('/images/decoration/categories-header/latin-header.jpg');
+}
+
+.lesbians-header
+{
+  background-image: url('/images/decoration/categories-header/lesbians-header.jpg');
+}
+
+.blowjob-header
+{
+  background-image: url('/images/decoration/categories-header/blowjob-header.jpg');
+}
+
+.latex-header
+{
+  background-image: url('/images/decoration/categories-header/latex-header.jpg');
+}
+
+.bathroom-header
+{
+  background-image: url('/images/decoration/categories-header/bathroom-header.jpg');
+}
+
+.nature-header
+{
+  background-image: url('/images/decoration/categories-header/nature-header.jpg');
+}
+
+.public-header
+{
+  background-image: url('/images/decoration/categories-header/public-header.jpg');
+}
+
+.milf-header
+{
+  background-image: url('/images/decoration/categories-header/milf-header.jpg');
+}
+
+.ebony-header
+{
+ background-image: url('/images/decoration/categories-header/ebony-header.jpg');	
+}
+
+.small-titts-header
+{
+ background-image: url('/images/decoration/categories-header/small-titts-header.jpg'); 
+}
+
+.small-ass-header
+{
+ background-image: url('/images/decoration/categories-header/small-ass-header.jpg'); 
+}
+
+.pussy-licking-header
+{
+ background-image: url('/images/decoration/categories-header/pussy-licking-header.jpg'); 
+}
+
+.teacher-header
+{
+ background-image: url('/images/decoration/categories-header/teacher-header.jpg'); 
+}
+
+.teen-header
+{
+ background-image: url('/images/decoration/categories-header/teen-header.jpg'); 
+}
+
+.tittfuck-header
+{
+ background-image: url('/images/decoration/categories-header/tittfuck-header.jpg'); 
+}
+
+.german-header
+{
+ background-image: url('/images/decoration/categories-header/german-header.jpg'); 
+}
+
+.slaves-header
+{
+ background-image: url('/images/decoration/categories-header/slaves-header.jpg'); 
+}
+
+.glasses-header
+{
+ background-image: url('/images/decoration/categories-header/glasses-header.jpg'); 
+}
+
+.hairy-pussy-header
+{
+ background-image: url('/images/decoration/categories-header/hairy-pussy-header.jpg'); 
+}
+
+.polish-header
+{
+ background-image: linear-gradient(to bottom, white, white 50%, red 51%, red); 
+}
+
+.POV-header
+{
+ background-image: url('/images/decoration/categories-header/POV-header.jpg'); 
+}
+
+.cum-swallowing-header
+{
+ background-image: url('/images/decoration/categories-header/cum-swallowing-header.jpg'); 
+}
+
+.nurse-header
+{
+ background-image: url('/images/decoration/categories-header/nurse-header.jpg'); 
+}
+
+.double-penetration-header
+{
+ background-image: url('/images/decoration/categories-header/double-penetration-header.jpg'); 
+}
+
+.stockings-header
+{
+ background-image: url('/images/decoration/categories-header/stockings-header.jpg'); 
+}
+
+.beach-header
+{
+ background-image: url('/images/decoration/categories-header/beach-header.jpg'); 
+}
+
+.police-header
+{
+ background-image: url('/images/decoration/categories-header/police-header.jpg'); 
+}
+
+.pantyhose-header
+{
+ background-image: url('/images/decoration/categories-header/pantyhose-header.jpg'); 
+}
+
+.russian-header
+{
+ background-image: url('/images/decoration/categories-header/russian-header.jpg'); 
+}
+
+.redhead-header
+{
+ background-image: url('/images/decoration/categories-header/redhead-header.jpg'); 
+}
+
+.high-heels-header
+{
+ background-image: url('/images/decoration/categories-header/high-heels-header.jpg'); 
+}
+
+.school-header
+{
+ background-image: url('/images/decoration/categories-header/school-header.jpg'); 
+}
+
+.pain-header
+{
+ background-image: url('/images/decoration/categories-header/pain-header.jpg'); 
+}
+
+.feet-header
+{
+ background-image: url('/images/decoration/categories-header/feet-header.jpg'); 
+}
+
+.car-header
+{
+ background-image: url('/images/decoration/categories-header/car-header.jpg'); 
+}
+
+.boss-header
+{
+ background-image: url('/images/decoration/categories-header/boss-header.jpg'); 
+}
+
+.secretary-header
+{
+ background-image: url('/images/decoration/categories-header/secretary-header.jpg'); 
+}
+
+.gym-header
+{
+ background-image: url('/images/decoration/categories-header/gym-header.jpg'); 
+}
+
+.spycam-header
+{
+ background-image: url('/images/decoration/categories-header/spycam-header.jpg'); 
+}
+
+.pupil-header
+{
+ background-image: url('/images/decoration/categories-header/pupil-header.jpg'); 
+}
+
+.huge-cock-header
+{
+ background-image: url('/images/decoration/categories-header/huge-cock-header.jpg'); 
+}
+
+.elevator-header
+{
+ background-image: url('/images/decoration/categories-header/elevator-header.jpg'); 
+}
+
+.cum-on-face-header
+{
+ background-image: url('/images/decoration/categories-header/cum-on-face-header.jpg'); 
+}
+
+.cum-on-titts-header
+{
+ background-image: url('/images/decoration/categories-header/cum-on-titts-header.jpg'); 
+}
+
+.creampie-header
+{
+ background-image: url('/images/decoration/categories-header/creampie-header.jpg'); 
+}
+
+.cum-on-pussy-header
+{
+  background-image: url('/images/decoration/categories-header/cum-on-pussy-header.jpg'); 	
+}
+
+.cum-on-ass-header
+{
+  background-image: url('/images/decoration/categories-header/cum-on-ass-header.jpg'); 	
+}
+
+.cum-in-ass-header
+{
+  background-image: url('/images/decoration/categories-header/cum-in-ass-header.jpg'); 	
+}
+
+.cum-on-feet-header
+{
+  background-image: url('/images/decoration/categories-header/cum-on-feet-header.jpg'); 	
+}
+
+.nun-header
+{
+  background-image: url('/images/decoration/categories-header/nun-header.jpg'); 	
+}
+
+.wife-header
+{
+  background-image: url('/images/decoration/categories-header/wife-header.jpg'); 	
+}
+
+/*bottom controls */
+
+.page-toggle-controls
+{
+  margin :8px auto;
+  padding:0;  
+  display:flex;
+  justify-content: center; 
+  list-style-type: none; 
+  flex-wrap:wrap;  
+  max-width: 440px;
+}
+
+
+.page-selection
+{
+  display: inline-block;
+  border-radius: 5px;
+  height: 40px;
+  color:white; 
+  font-family: 'Baloo Da', sans-serif;
+  line-height: 40px;
+  text-transform:uppercase;
+  border: none;
+  text-decoration:none;
+}
+
+.page-selection-first-layer
+{
+ 	width:40px;
+	padding: 0 8px;
+}
+
+.page-selection-second-layer
+{
+  width:100px;   
+}
+
+
+.page-selection:not(.active)
+{
+ background: black;
+}
+
+.page-selection:hover
+{
+  background:#E6033C;
+  cursor:pointer;
+}
+
+.active
+{
+  background: #E6033C;	
+}
+
+.controls-element
+{
+ text-align: center;
+ margin: 5px; 
+}
+
+
+
+@media only screen and (max-width: 755px)
+{
+    .selected-category
+   {
+    height: 250px;
+   }
+   
+   .category-name
+   {
+	 font-size:7vw
+   }
+   
+}
+
+@media only screen and (max-width: 450px)
+{
+  .page-selection
+  {
+	width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  
+  .controls-element
+  {
+	margin: 3px;  
+  }
+  
+  .page-selection-second-layer
+  {
+	width: 95%;  
+  }
+  
+  .controls-element-bottom
+  {
+	width: 90%; 
+  }
+  
+}
+
+@media only screen and (min-width: 756px) and (max-width: 1100px)
+{
+	.category-name
+   {
+	 font-size:6.4vw
+   }
+}

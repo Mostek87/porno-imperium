@@ -1,0 +1,42 @@
+@import 'reset';
+@import 'dark-canvas';
+@import 'navbar';
+@import 'footer';
+@import 'categories-menu-togle';
+@import 'categories-menu-togle-images';
+@import 'magnifier';
+@import 'login-box';
+@import 'bottom-controls';
+@import 'movies';
+
+.users-parameters-all
+{
+  color: white;
+  font-size: 14px;
+  font-family: 'Play', sans-serif;
+  min-width:300px;
+  width: 40%;
+  margin: 55px auto 30px auto;
+  border: 1px solid #383838;
+  background-color: #262626;
+  text-align:center;
+  padding:4px;
+}
+
+.search-results-header
+{
+ font-size: 26px;
+ color: #F50323;
+}
+
+.users-parameters-list
+{
+  list-style-image: url('/images/decoration/square.jpg');
+  padding: 0;
+  padding-left: 40px;
+}
+
+.main-content
+{
+ min-height: calc(100vh - 250px);	
+}

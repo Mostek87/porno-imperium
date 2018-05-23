@@ -1,0 +1,284 @@
+@import 'reset';
+@import 'dark-canvas';
+@import 'navbar';
+@import 'footer';
+@import 'categories-menu-togle';
+@import 'categories-menu-togle-images';
+@import 'login-box';
+
+body
+{
+  background: url('/images/decoration/search.jpg') no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+	input[type=checkbox].css-checkbox {
+		position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+	}
+
+	input[type=checkbox].css-checkbox + label.css-label {
+		padding-left:22px;
+		height:17px; 
+		display:inline-block;
+		line-height:17px;
+		background-repeat:no-repeat;
+		background-position: 0 0;
+		font-size:15px;
+		vertical-align:middle;
+		cursor:pointer;
+
+	}
+
+	input[type=checkbox].css-checkbox:checked + label.css-label {
+		background-position: 0 -17px;
+	}
+	label.css-label {
+	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_314a66eb1641f8832a7ada19bbf96697.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	}
+
+.info-icon
+{
+  width: 23px;
+  height:23px;
+  float:left;
+}
+
+.pornstar-foto
+{
+display: block;
+margin: 4px auto 2px auto;
+width: 125px;
+height: 143px;
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+border: 1px solid #660000;
+border-radius: 3px;
+}
+
+.additional-options-checkbox
+{
+  margin-right: 5px;
+}
+
+.reset-input
+{
+  background: red;
+}
+
+.submit-input
+{
+ background: #2AE609
+}
+
+.control-input
+{
+border-radius: 5px;
+    padding: 2px 8px;
+    font-family: 'Play', sans-serif;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.user-info
+{
+  padding: 0 5px 8px 5px;
+}
+
+.advanced-search
+{
+ width: 95%;
+ margin: 60px auto;
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.controls-header
+{
+  text-align: center;
+  padding:5px;
+  border-radius: 7px 7px 0px 0px;
+  background: rgba(62, 18, 18, 0.78);
+}
+
+.controls-group
+{
+   border-radius: 7px;
+   font-family: 'Play', sans-serif;
+  color: white;
+  box-shadow: 2px 2px 2px 2px black;
+  border: 1px solid silver;
+  margin-bottom: 7px;
+}
+
+.controls
+{
+  background: rgba(0,0,0,0.9);
+  padding: 6px;
+  border-radius: 0 0 7px 7px;
+  font-size: 14px;
+}
+
+.controls-layer
+{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 5px;
+ min-height: 19px;
+}
+
+.controls-layer-top
+{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 5px;
+ min-height: 19px;
+}
+
+.controls-column
+{
+  width:32%;
+}
+
+.select-controls
+{
+ width: 120px;
+ border-radius: 3px;
+ background: black;
+ color: white;
+}
+
+.red-separator
+{
+ height: 2px;
+ background-color: red;
+ box-shadow: 1px 1px 6px 0px red;
+ margin: 6px 0; 
+}
+
+.hidden-control
+{
+ display: none;
+}
+
+.toys-layer
+{
+ padding: 5px 0px;
+}
+
+.pornstars-container
+{
+ min-width: 130px;
+}
+
+.top-control
+{
+  width: 50%;
+}
+
+.top-select
+{
+  display:block;
+  width:94%;
+  margin: 0 auto;
+  background: black;
+  color: white;
+  border-radius: 3px;
+}
+
+.porn-empire-footer
+{
+  background: rgba(0,0,0,0.95);
+}
+
+@media only screen and (max-width: 1000px)
+{
+  .advanced-search
+  {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 890px)
+{
+  .advanced-search
+  {
+    width: 100%;
+  }
+  
+    body
+   {
+    background-image: url('/images/decoration/search-2.jpg');
+   }
+  
+  .column-1, .column-3
+  {
+    width: 45%;
+  }
+  
+  .column-2
+  {
+   width: 60%;
+  }
+  
+  .column-1
+  {
+   order: 1;
+  }
+  
+  .column-3
+  {
+   order: 1;
+  }
+  
+  .column-2
+  {
+   order: 2;
+  }
+}
+
+@media only screen and (max-width: 640px)
+{
+  .controls-column
+  {
+    width: 70%;
+  }
+  
+  .column-3
+  {
+    order:2
+  }
+  
+  .column-1
+  {
+    order: 1;
+  }
+  
+  .column-2
+  {
+    order: 1;
+  }
+  
+    
+}
+
+@media only screen and (max-width: 470px)
+{
+  .controls-column
+  {
+    width: 98%;
+  }
+  
+  
+}
+

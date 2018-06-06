@@ -1,6 +1,5 @@
 @import 'reset';
 @import 'dark-canvas';
-@import 'navbar';
 @import 'footer';
 @import 'categories-menu-togle';
 @import 'categories-menu-togle-images';
@@ -9,7 +8,16 @@
 @import 'bottom-controls';
 @import 'movies';
 
+body
+{
+  position: relative;
+}
 
+.sentinel
+{
+position: absolute;
+top: 120vh;
+}
 
 .decoration-images-container
 {
@@ -29,6 +37,97 @@
 	width:100%;
 	z-index:2;
 	animation: fading-background 12s 4.5s infinite alternate;
+}
+
+.main_nav
+{
+  transition: background 2s;
+  background: rgba(0,0,0,0.3);
+  position:fixed;
+  top:0px;
+  width:100%;
+  padding: 4px;
+  z-index: 4;
+}
+
+
+
+.action_list_main
+{
+  list-style-type : none;
+  margin: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding:0;
+ overflow: hidden;
+}
+
+.navigation-link
+{
+  text-decoration: none;
+  color:white;  
+}
+
+.navigation-link:active
+{
+ color:gray;	
+}
+
+.navigation-link:hover
+{
+ transition: color 3s;
+ color:white;
+ text-decoration: none; 
+}
+
+.action_option_main
+{
+	display:inline;
+	text-transform: uppercase;
+	font-family: 'Monda', sans-serif;
+	font-size:1.7vw;
+	color:white;
+}
+
+.action_option_main:hover
+{
+  transition: color 2s;
+  color:white;
+  cursor:pointer
+}
+
+.empire-logo
+{
+	width:18vw;
+	height:auto;
+	max-width: 260px;
+	margin-right: 20px;
+}
+
+.empire-logo-small
+{
+	display: none;
+	margin-top: 4px;
+}
+
+.vertical-separator
+{
+ 	width: 2px;
+    background-color: transparent;
+    border-left: 2px solid transparent;
+    display: inline-block;
+    height: 2.3vw;
+    margin: 0 10px;
+}
+
+.navbar-button
+{
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin: 0;	
 }
 
 @media only screen and (max-width: 600px)
@@ -157,6 +256,66 @@
 {
 	background: url('/images/decoration/big-images-main-page/decoration-image-20.jpg') no-repeat center;
 	background-size: cover;
+}
+
+.video-header
+{
+	width:100%;
+	height: auto;
+}
+
+.main-content
+{
+  background:#212121;
+  position:relative;
+  bottom:7vw;
+}
+
+
+@media only screen and (max-width: 800px)
+{
+	
+	.action_option_main
+	{
+	  font-size: 2.3vw;	
+	}
+}
+
+@media only screen and (max-width: 600px)
+{
+  .decoration-images-container
+  {
+	height: 250px;  
+  }
+}
+
+
+
+
+@media only screen and (max-width: 580px)
+{
+	.empire-logo
+	{
+		display: none;
+	}
+	
+   .action_option_main 
+   {
+    font-size: 3.5vw;
+   }
+	
+	
+	
+}
+
+@media only screen and (max-width: 450px)
+{
+  .vertical-separator
+  {
+   height: 3.8vw;
+   margin:0 4px;
+  }  
+  
 }
 
 @keyframes fading-background

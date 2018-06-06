@@ -15,6 +15,16 @@
  height: 40vw !important;
 }
 
+.google-recaptcha
+{
+  display:none;
+  z-index: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 .movie-controls-and-information
 {

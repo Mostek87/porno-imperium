@@ -87,9 +87,6 @@ body {
   padding: 0;
   margin: 0; }
 
-@media only screen and (max-width: 650px) {
-  .action_option_main {
-    font-size: 2.3vw; } }
 @media only screen and (max-width: 600px) {
   .decoration-images-container {
     height: 250px; } }
@@ -98,14 +95,14 @@ body {
     display: none; }
 
   .empire-logo-small {
-    display: block; } }
+    display: block; }
+
+  .action_option_main {
+    font-size: 2.7vw; } }
 @media only screen and (max-width: 450px) {
   .vertical-separator {
     height: 3.8vw;
-    margin: 0 4px; }
-
-  .action_option_main {
-    font-size: 2.9vw; } }
+    margin: 0 4px; } }
 .porn-empire-footer {
   background: black;
   text-align: center;
@@ -665,6 +662,14 @@ input[type=range].progressbar-video:focus::-ms-fill-upper {
   display: block;
   width: 100% !important;
   height: 40vw !important; }
+
+.google-recaptcha {
+  display: none;
+  z-index: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .movie-controls-and-information {
   margin-bottom: 20px;

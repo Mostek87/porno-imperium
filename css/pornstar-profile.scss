@@ -7,7 +7,15 @@
 @import 'login-box';
 @import 'magnifier';
 
-
+.google-recaptcha
+{
+  display:none;
+  z-index: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .movies-container
 {
